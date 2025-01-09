@@ -1,0 +1,44 @@
+.save-button {
+  width: 54px;
+  height: 20px;
+
+  border-radius: 1000px;
+
+  border: 1px solid #a1a1b8;
+  box-shadow: none;
+
+  outline: none;
+
+  margin: 0px;
+  padding: 0px;
+
+  background-color: transparent;
+
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 9px;
+  font-weight: 700;
+  font-style: normal;
+  color: black;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.save-button:hover {
+  border-color: #424252;
+}
+
+.save-button:active {
+  border-color: black;
+  background-color: black;
+  color: white;
+}
