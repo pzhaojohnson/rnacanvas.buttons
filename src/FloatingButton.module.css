@@ -1,7 +1,7 @@
 .floating-button {
   border-radius: 1000px;
 
-  border: 1px solid #cdcddc;
+  border: 1px solid #ccccdc;
   box-shadow: none;
 
   outline: none;
@@ -9,13 +9,15 @@
   margin: 0px;
   padding: 0px;
 
-  background-color: black;
+  background-color: transparent;
 
   font-family: "Open Sans", sans-serif;
   font-size: 9px;
   font-weight: 700;
   font-style: normal;
   color: white;
+
+  mix-blend-mode: difference;
 
   display: flex;
   align-items: center;
