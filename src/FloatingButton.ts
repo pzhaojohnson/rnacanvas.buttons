@@ -9,6 +9,14 @@ export class FloatingButton {
     this.domNode.textContent = textContent ?? '';
   }
 
+  hide(): void {
+    this.domNode.style.visibility = 'hidden';
+  }
+
+  show(): void {
+    this.domNode.style.visibility = '';
+  }
+
   get theme(): 'light' | 'dark' {
     return this.domNode.classList.contains(styles['dark']) ? 'dark' : 'light';
   }

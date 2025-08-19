@@ -15,6 +15,14 @@ export class ExportButton {
     return this.#floatingButton.domNode;
   }
 
+  hide(): void {
+    this.#floatingButton.hide();
+  }
+
+  show(): void {
+    this.#floatingButton.show();
+  }
+
   get theme() {
     return this.#floatingButton.theme;
   }
