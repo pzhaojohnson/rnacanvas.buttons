@@ -9,3 +9,6 @@ export { ExportButton };
 
 import { AboutButton } from './AboutButton';
 export { AboutButton };
+
+import { EditButton } from './EditButton';
+export { EditButton };
