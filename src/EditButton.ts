@@ -7,10 +7,12 @@ export class EditButton {
   #floatingButton = new FloatingButton('Edit');
 
   constructor() {
-    this.domNode.style.fontSize = '11px';
+    this.domNode.title = 'Open in a new tab.';
 
-    this.domNode.style.width = '46px';
-    this.domNode.style.height = '24px';
+    this.domNode.style.fontSize = '10px';
+
+    this.domNode.style.width = '47px';
+    this.domNode.style.height = '22px';
   }
 
   get domNode() {
